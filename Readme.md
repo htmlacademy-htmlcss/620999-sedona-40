@@ -2,6 +2,7 @@
 
 * Студент: [Евгений Кабанов](https://up.htmlacademy.ru/htmlcss/40/user/620999).
 * Наставник: [Дмитрий Осадченко](https://htmlacademy.ru/profile/dimaos).
+* Сайт: [Мой проект Седона](https://senarialdarissystems.github.io/620999-sedona-40/).
 
 ---
 
