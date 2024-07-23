@@ -5,7 +5,6 @@
 	src: url("../fonts/ptsans-400.woff2") format("woff2");
 	font-display: swap;
 }
-
 @font-face {
 	font-family: "PT Sans";
 	font-style: normal;
@@ -38,7 +37,7 @@ body {
 
 .page-container {
 	background-color: #ffffff;
-	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2); 
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 
@@ -52,7 +51,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-	
+
 
 .main-container {
 	flex-grow: 1;
@@ -135,20 +134,7 @@ body {
 	margin-left: auto;
 }
 
-/* способ вставления иконки при помощи фонового изображения (не позволяет менять цвет этой иконки)
-.navigation-user .navigation-item:nth-child(1) .navigation-link {
-	background-image: url("../images/icon/icon-search.svg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 18px 18px;
-}
 
-.navigation-user .navigation-item:nth-child(2) .navigation-link {
-	background-image: url("../images/icon/icon-favorites.svg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 18px 18px;
-} */
 
 .button-want-here {
 	font-family: "PT Sans", sans-serif;
@@ -514,7 +500,7 @@ body {
 
 .social-link:active {
 	opacity: 30%;
-} 	 	
+}
 
 .footer-phone {
 	width: 330px;
@@ -572,7 +558,7 @@ body {
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
   /* background-color: #f2f2f2;
-  opacity: 80%; 
+  opacity: 80%;
   можно еще так записать перекрытие цвета на прозрачность*/
 }
 
@@ -971,7 +957,7 @@ border: none;
   .control-label {
 	padding-left: 12px;
   }
-  
+
   .control-mark {
 	position: absolute;
 	top: 1px;
@@ -1023,7 +1009,7 @@ border: none;
 .control-input[type="checkbox"]:checked + .control-mark::before {
 	transform: rotate(45deg);
   }
-  
+
   .control-input[type="checkbox"]:checked + .control-mark::after {
 	transform: rotate(-45deg);
   } */
@@ -1031,7 +1017,7 @@ border: none;
 .control-input[type="radio"] + .control-mark {
 	border-radius: 50%;
   }
-  
+
 .control-input[type="radio"]:checked + .control-mark::after {
 	  position: absolute;
 	  top: 5px;
@@ -1264,7 +1250,7 @@ border: none;
 	width: 48px;
 	height: 48px;
 	align-items: center;
-	outline: none; /*убирает браузерное выделение табом*/ 
+	outline: none; /*убирает браузерное выделение табом*/
 }
 
 .view-button-current {
